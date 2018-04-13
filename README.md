@@ -3,7 +3,7 @@
 An implementation of pathfinding using GBS a.k.a. Greedy Best-first Search <br>
 multiple goal maze solving <br>
 <br>
-usage<br>
+usage : <br>
 execute t:his code with IDS.py and input.txt ex) python IDS.py input.txt output.txt <br>
 it will generate the best path  <br>
 1 means wall (can't pass) <br>
