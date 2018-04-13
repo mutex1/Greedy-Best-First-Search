@@ -1,6 +1,6 @@
 # Greedy-Best-First-Search
 
-An implementation of pathfinding using GBS a.k.a. Greedy Best-first Search <br>
+An implementation of pathfinding using Greedy Best-first Search a.k.a. GBS<br>
 multiple goal maze solving <br>
 <br>
 usage : <br>
