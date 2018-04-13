@@ -123,7 +123,7 @@ class GBS():
                 # add a new node which locates near the node
                 neighbors = self.findNeighbors(node, visited)
                 for neighbor in neighbors:
-                    if (self.manhattan(neighbor, self.end[i]), neighbor) not in opened:
+                    if neighbor not in opened:
                         heappush(opened, (self.manhattan(neighbor, self.end[i]), neighbor))
                         timeList[i] += 1
                         previous[tuple(neighbor)] = node
@@ -162,7 +162,7 @@ class GBS():
         for goal in self.end:
             self.maze[goal[0]][goal[1]] = 4
 
-        # make output and writhe
+        # make output and write
         output = self.makeOutput(minLength, resultTime)
         with open(sys.argv[2], 'w') as f:
             f.writelines(output)
